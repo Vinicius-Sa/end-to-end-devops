@@ -1,5 +1,1 @@
-register-app
-<br>
-Test93
-
-posgresql: admin123
+# Complete end-to-end DevOps Project from scratch 
