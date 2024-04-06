@@ -91,13 +91,20 @@ pipeline {
        }
 
        stage("Trigger CD Pipeline") {
-            steps {
-                script {
-                    sh "curl -v -k --user viniciussa:${JENKINS_API_TOKEN} -X POST -H 'cache-control: no-cache' -H 'content-type: application/x-www-form-urlencoded' --data 'IMAGE_TAG=${IMAGE_TAG}' 'ec2-54-152-207-137.compute-1.amazonaws.com:8080/job/gitops-register-app-cd/buildWithParameters?token=gitops-token'"
-                }
+          steps {
+             script {
+                 def triggerParams = [
+                 [$class: 'StringParameterValue', name: 'IMAGE_TAG', value: "${IMAGE_TAG}"]
+             ]
+             triggerRemoteJob(
+                remoteJenkinsName: 'ec2-54-152-207-137.compute-1.amazonaws.com',
+                job: 'gitops-register-app-cd',
+                predefinedParameters: triggerParams,
+                token: 'gitops-token'
+              )
             }
-       }
-    }
+          }
+        }
 
     post {
        failure {
