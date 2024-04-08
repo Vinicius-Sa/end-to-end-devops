@@ -12,7 +12,7 @@ Upon completion of the CI jobs, a Continuous Delivery (CD) pipeline is automatic
 
 To keep all stakeholders informed, notifications regarding successful or failed pipelines are sent out via Slack or email channels.
 
-![](C:/Users/Admin/Documents/Lightshot/end-to-end-devops/Screenshot_10.png)
+![Screenshot_10](https://github.com/Vinicius-Sa/end-to-end-devops/assets/95035624/0a3f5a2f-72de-4d3f-bfba-ee79315e3cad)
 
 ### Tools
 - EKS 
@@ -38,24 +38,24 @@ To keep all stakeholders informed, notifications regarding successful or failed 
 9. [x] Configure ArgoCD to deploy pods on EKS and automate ArgoCD deployment work using GitHub GitOps repository
 ---
 ## CI Stages
-![](C:/Users/Admin/Documents/Lightshot/end-to-end-devops/Screenshot_6.png)
+![Screenshot_6](https://github.com/Vinicius-Sa/end-to-end-devops/assets/95035624/1ec25a10-887f-4c5c-a638-62f7e6657316)
+
 
 ---
 ## [CD Stages](https://github.com/Vinicius-Sa/gitops-end-to-end)
-![](C:/Users/Admin/Documents/Lightshot/end-to-end-devops/Screenshot_7.png)
+![Screenshot_7](https://github.com/Vinicius-Sa/end-to-end-devops/assets/95035624/f08bc2df-2bfb-4bf8-a430-4f2d463598ea)
 
 ----
 
 ## ArgoCD
-![](C:/Users/Admin/Documents/Lightshot/end-to-end-devops/Screenshot_3.png)
+---![Screenshot_3](https://github.com/Vinicius-Sa/end-to-end-devops/assets/95035624/de153947-478b-4bfc-8ee6-cfec92480fd2)
 
----
 ## Application page
-![](C:/Users/Admin/Documents/Lightshot/end-to-end-devops/Screenshot_5.png)
+![Screenshot_5](https://github.com/Vinicius-Sa/end-to-end-devops/assets/95035624/41a82df4-ae40-4e23-86ad-4017c4b56776)
 
 ---
 ## Instances setup (Jenkins Master | Jenkins Agent | EKS Bootstrap Server | SonarQube)
-![](C:/Users/Admin/Documents/Lightshot/end-to-end-devops/Screenshot_8.png)
+![Screenshot_8](https://github.com/Vinicius-Sa/end-to-end-devops/assets/95035624/186b5a88-dd1f-4d61-a6f6-af7bef240c9f)
 
 ### Install and Configure the Jenkins-Master & Jenkins-Agent 
 ### Install Java
