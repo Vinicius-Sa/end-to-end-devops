@@ -1,7 +1,7 @@
 # Complete end-to-end DevOps Project
 
 ---
-##  End to end CI CD  pipeline to deploy register aplication at EKS cluster using Jenkins
+##  End-to-end CI CD  pipeline to deploy register application at EKS cluster using Jenkins
 ### **Workflow** 
 
 #### Continuous Integration and Continuous Delivery Pipeline
